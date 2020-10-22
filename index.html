@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Notes</title>
+</head>
+<body>
+
+<header id="main">
+    <h1 href="index.html">NotesApp</h1>
+</header>
+
+<div id="container">
+    <div id="notes-block">
+        <input type="button" id="add-note" class="input" value="Add" onclick="addNote();">
+        <ul class="note-list">
+        </ul>
+    </div>
+    <div id="note-content">
+        <input id="note-name" class="input" type="text" placeholder="Note's name">
+        <input id="delete-note" class="input" type="button" value="Delete" onclick="deleteNote();">
+        <textarea id="note-text" class="input" placeholder="Note's text"></textarea>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
